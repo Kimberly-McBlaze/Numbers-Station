@@ -18,6 +18,8 @@ If you're fascinated by numbers stations on shortwave radio and want to create y
 
 5. Execute the "create-human-readable-otp.py" script. It will transform the "one_time_pad.txt" into a human-readable text file. Share this newly generated file with your intended recipient; it will be named "sorted_formatted_one_time_pad.txt," but feel free to rename it before sharing.
 
+6. Should you wish to change your one-time pad, repeat the steps from 2 above to generate a new "one_time_pad.txt." Ensure that your one-time pad remains secure and confidential, as it's a critical component of encoding and decoding messages. Make sure you backup your old one-time pad before doing this (this is optional).
+
 **Important Tips:**
 
 If the "encode-message.py" script generates a group of numbers with less than 5 digits, follow these steps:
