@@ -12,7 +12,7 @@ If you're fascinated by numbers stations on shortwave radio and want to create y
 
 2. Run the "generate-numbers.py" script. It will generate a file named "one_time_pad.txt."
 
-3. Run the "encode-message.py" script and input your message. This script reads from the "one_time_pad.txt" file and encodes your message into numbers.
+3. Run the "encode-message.py" script and input your message. This script reads from the "one_time_pad.txt" file and encodes your message into numbers. Be sure to copy the numbers into the clipboard before starting the next step.
 
 4. If you plan to use text-to-speech software to read the numbers, run the "group-numbers-for-tts.py" script. If you prefer to read the numbers aloud, use the "group-numbers.py" script instead.
 
