@@ -1,0 +1,35 @@
+Ignore the repeating "98765" in the beginning of the recording. If this was a real numbers station, that would have likely been an assigned ID number of the intended recipient. But this is a simulation of the numbers station, so that ID can be ignored.
+
+
+00 - Y
+01 - F
+02 - N
+03 - V
+04 - . (dot)
+05 - P
+06 - R
+07 - U
+08 - D
+09 - Z
+10 - J
+11 - H
+12 - M
+13 - , (comma)
+14 - @ (at symbol)
+15 - C
+16 -  (space)
+17 - B
+18 - E
+19 - L
+20 - A
+21 - ? (question mark)
+22 - S
+23 - W
+24 - Q
+25 - X
+26 - I
+27 - G
+28 - O
+29 - K
+30 - ! (exclamation point)
+31 - T
