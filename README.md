@@ -1,5 +1,5 @@
 # Numbers-Station
-Inspired by numbers stations heard on shortwave radio, this will create a one-time-pad and encode your message into numbers.
+Inspired by numbers stations heard on shortwave radio, this will create a one-time-pad and encode your message into numbers. These scripts were generated using ChatGPT.
 -------------
 
 **How to use:**
