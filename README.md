@@ -21,18 +21,27 @@ Inspired by numbers stations heard on shortwave radio, this will create a one-ti
 If the "encode-message.py" script generates a group of numbers that is less than 5 digits, open the sorted_formatted file and look for the number that corresponds with an empty space and use that to fill in the rest of the string of numbers to complete the string, adding another string of numbers below that if necessary. For example, if your output is this:
 
 2, 3, 2, 9, 0.
+
 6, 1, 3, 0, 6.
+
 1, 3, 2, 8, 2.
+
 3, 1, 1, 1, 3.
+
 2, 3.
 
 and the number for an empty space is "16", edit your putout so that it reads the following:
 
 2, 3, 2, 9, 0.
+
 6, 1, 3, 0, 6.
+
 1, 3, 2, 8, 2.
+
 3, 1, 1, 1, 3.
+
 2, 3, 1, 6, 1.
+
 6, 1, 6, 1, 6.
 
 This adds some extra padding so that your numbers station can maintain the correct format.
@@ -40,14 +49,25 @@ This adds some extra padding so that your numbers station can maintain the corre
 It is also highly recommended to duplicate each line if you want to be true to the Lincolnshire Poacher format, like this:
 
 2, 3, 2, 9, 0.
+
 2, 3, 2, 9, 0.
+
 6, 1, 3, 0, 6.
+
 6, 1, 3, 0, 6.
+
 1, 3, 2, 8, 2.
+
 1, 3, 2, 8, 2.
+
 3, 1, 1, 1, 3.
+
 3, 1, 1, 1, 3.
+
 2, 3, 1, 6, 1.
+
 2, 3, 1, 6, 1.
+
 6, 1, 6, 1, 6.
+
 6, 1, 6, 1, 6.
