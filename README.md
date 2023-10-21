@@ -1,81 +1,77 @@
-# Numbers-Station
-Inspired by numbers stations heard on shortwave radio, this will create a one-time-pad and encode your message into numbers. These scripts were generated using ChatGPT.
--------------
-**This is an incomplete readme file, it will be completed later.**
+# Numbers-Station Simplified Guide
 
-**How to use:**
+If you're fascinated by numbers stations on shortwave radio and want to create your own coded messages using a one-time pad, you've come to the right place. This tool has been generated with the help of ChatGPT.
 
-1: You will need to use pip to install the following three dependencies: pyperclip, random, string. 
+---
 
+**Please note: This readme is a work in progress and will be updated later.**
 
-2: Execute the "generate-numbers.py" file, it will create a "one_time_pad.txt" file.
+**How to Use:**
 
+1. Start by installing three essential Python libraries using pip: `pyperclip`, `random`, and `string`.
 
-3: Execute the "encode-message.py" file and type whatever message you want. It will read from the above file and generate some numbers according to the file above.
+2. Run the "generate-numbers.py" script. It will generate a file named "one_time_pad.txt."
 
+3. Run the "encode-message.py" script and input your message. This script reads from the "one_time_pad.txt" file and encodes your message into numbers.
 
-4: If you're using text-to-speech software to read the numbers, execute the "group-numbers-for-tts.py" file. If you prefer to read the numbers yourself, execute the "group-numbers.py" file instead.
+4. If you plan to use text-to-speech software to read the numbers, run the "group-numbers-for-tts.py" script. If you prefer to read the numbers aloud, use the "group-numbers.py" script instead.
 
+5. Execute the "create-human-readable-otp.py" script. It will transform the "one_time_pad.txt" into a human-readable text file. Share this newly generated file with your intended recipient; it will be named "sorted_formatted_one_time_pad.txt," but feel free to rename it before sharing.
 
-5: Execute the "create-human-readable-otp.py" file, which will generate a human-readable text file from the "one_time_pad.txt" file, give this newly generated file to your intended recipient, the new file will be called "sorted_formatted_one_time_pad.txt", you can rename this file if you want before sending it to your recipient.
+**Important Tips:**
 
+If the "encode-message.py" script generates a group of numbers with less than 5 digits, follow these steps:
 
-**Some things you should know about:**
+- Open the "sorted_formatted_one_time_pad.txt" file.
+- Locate the number that corresponds to an empty space and use it to complete the string of numbers.
+- Add another string of numbers below if needed.
 
-If the "encode-message.py" script generates a group of numbers that is less than 5 digits, open the sorted_formatted file and look for the number that corresponds with an empty space and use that to fill in the rest of the string of numbers to complete the string, adding another string of numbers below that if necessary. For example, if your output is this:
+For example, if your output is like this:
 
 2, 3, 2, 9, 0.
-
 6, 1, 3, 0, 6.
-
 1, 3, 2, 8, 2.
-
 3, 1, 1, 1, 3.
-
 2, 3.
 
-and the number for an empty space is "16", edit your putout so that it reads the following:
+And the number for an empty space is "16," edit your output as follows:
 
 2, 3, 2, 9, 0.
-
 6, 1, 3, 0, 6.
-
 1, 3, 2, 8, 2.
-
 3, 1, 1, 1, 3.
-
 2, 3, 1, 6, 1.
-
 6, 1, 6, 1, 6.
 
-This adds some extra padding so that your numbers station can maintain the correct format.
+This ensures your numbers station maintains the correct format.
 
-It is also highly recommended to duplicate each line if you want to be true to the Lincolnshire Poacher format, like this:
+It's also recommended to duplicate each line if you want to mimic the Lincolnshire Poacher format, like this:
 
 2, 3, 2, 9, 0.
-
 2, 3, 2, 9, 0.
-
 6, 1, 3, 0, 6.
-
 6, 1, 3, 0, 6.
-
 1, 3, 2, 8, 2.
-
 1, 3, 2, 8, 2.
-
 3, 1, 1, 1, 3.
-
 3, 1, 1, 1, 3.
-
 2, 3, 1, 6, 1.
-
 2, 3, 1, 6, 1.
-
+6, 1, 6, 1, 6.
 6, 1, 6, 1, 6.
 
-6, 1, 6, 1, 6.
+**The Lincolnshire Poacher Format:**
 
-**The Lincolnshire Poacher format:**
+In case you want to follow the Lincolnshire Poacher format, here's how it works:
 
-1 minute interval signal followed by 1 to 2 second silence followed by a 5 digit ID spoken 5 times then 4 seconds of silence then the same 5 digit ID spoken 5 times again followed by a 12-second chime signal followed by the message, which is a bunch of numbers grouped into strings of 5 and each group of 5 numbers is sent twice and after the message is completed, 4 seconds of silence then the 12 second chime signal followed by 4 seconds of silence and then the 1 minute interval signal and then it goes off air.
+1. Start with a 1-minute interval signal.
+2. Follow it with 1 to 2 seconds of silence.
+3. Announce a 5-digit ID spoken 5 times.
+4. Add 4 seconds of silence.
+5. Repeat the same 5-digit ID spoken 5 times.
+6. Insert a 12-second chime signal.
+7. Share your message, which consists of numbers grouped into strings of 5. Each group of 5 numbers is sent twice.
+8. After the message, include 4 seconds of silence.
+9. Follow up with the 12-second chime signal.
+10. Add 4 seconds of silence.
+11. Conclude with a 1-minute interval signal before going off the air.
