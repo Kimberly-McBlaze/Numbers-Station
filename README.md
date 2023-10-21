@@ -75,3 +75,13 @@ In case you want to follow the Lincolnshire Poacher format, here's how it works:
 9. Follow up with the 12-second chime signal.
 10. Add 4 seconds of silence.
 11. Conclude with a 1-minute interval signal before going off the air.
+
+**Important Caution and Legal Disclaimer:**
+
+We strongly discourage transmitting the encoded messages created using this tool over any radio frequencies, including but not limited to ham radio, CB radio, GMRS, MURS, or any other radio service. The use of radio frequencies for transmitting encoded messages without proper authorization may be subject to severe legal consequences.
+
+Before considering any transmission over the airwaves, it is essential to research and fully understand the relevant local, regional, and national laws governing radio communications. Make sure you comply with all legal requirements and obtain any necessary licenses or permissions. We do not endorse or support any unauthorized radio transmissions, and users who choose to transmit messages in this manner do so at their own risk.
+
+Please be aware that the use of radio frequencies without the proper authorization can lead to legal penalties, including fines and possible imprisonment. It is crucial to respect the rules and regulations that govern radio communications in your area.
+
+By using this tool, you acknowledge that the creator of this software is not responsible for any actions you may take, including any legal consequences that may arise from transmitting messages over radio frequencies. Users are solely responsible for their own actions and should exercise caution and legal compliance when considering radio transmissions.
