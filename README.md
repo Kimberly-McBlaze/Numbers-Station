@@ -38,6 +38,7 @@ For example, if your output is like this:
 
 2, 3.
 
+
 And the number for an empty space is "16," edit your output as follows:
 
 2, 3, 2, 9, 0.
@@ -51,6 +52,7 @@ And the number for an empty space is "16," edit your output as follows:
 2, 3, 1, 6, 1.
 
 6, 1, 6, 1, 6.
+
 
 This ensures your numbers station maintains the correct format.
 
@@ -79,6 +81,7 @@ It's also recommended to duplicate each line if you want to mimic the Lincolnshi
 6, 1, 6, 1, 6.
 
 6, 1, 6, 1, 6.
+
 
 **The Lincolnshire Poacher Format:**
 
