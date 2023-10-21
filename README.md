@@ -5,16 +5,19 @@ Inspired by numbers stations heard on shortwave radio, this will create a one-ti
 
 **How to use:**
 
-1: Execute the "generate-numbers.py" file, it will create a "one_time_pad.txt" file.
+1: You will need to use pip to install the following three dependencies: pyperclip, random, string. 
 
 
-2: Execute the "encode-message.py" file and type whatever message you want. It will read from the above file and generate some numbers according to the file above.
+2: Execute the "generate-numbers.py" file, it will create a "one_time_pad.txt" file.
 
 
-3: If you're using text-to-speech software to read the numbers, execute the "group-numbers-for-tts.py" file. If you prefer to read the numbers yourself, execute the "group-numbers.py" file instead.
+3: Execute the "encode-message.py" file and type whatever message you want. It will read from the above file and generate some numbers according to the file above.
 
 
-4: Execute the "create-human-readable-otp.py" file, which will generate a human-readable text file from the "one_time_pad.txt" file, give this newly generated file to your intended recipient, the new file will be called "sorted_formatted_one_time_pad.txt", you can rename this file if you want before sending it to your recipient.
+4: If you're using text-to-speech software to read the numbers, execute the "group-numbers-for-tts.py" file. If you prefer to read the numbers yourself, execute the "group-numbers.py" file instead.
+
+
+5: Execute the "create-human-readable-otp.py" file, which will generate a human-readable text file from the "one_time_pad.txt" file, give this newly generated file to your intended recipient, the new file will be called "sorted_formatted_one_time_pad.txt", you can rename this file if you want before sending it to your recipient.
 
 
 **Some things you should know about:**
@@ -72,3 +75,7 @@ It is also highly recommended to duplicate each line if you want to be true to t
 6, 1, 6, 1, 6.
 
 6, 1, 6, 1, 6.
+
+**The Lincolnshire Poacher format:**
+
+1 minute interval signal followed by 1 to 2 second silence followed by a 5 digit ID spoken 5 times then 4 seconds of silence then the same 5 digit ID spoken 5 times again followed by a 12-second chime signal followed by the message, which is a bunch of numbers grouped into strings of 5 and each group of 5 numbers is sent twice and after the message is completed, 4 seconds of silence then the 12 second chime signal followed by 4 seconds of silence and then the 1 minute interval signal and then it goes off air.
