@@ -1,6 +1,7 @@
 # Numbers-Station
 Inspired by numbers stations heard on shortwave radio, this will create a one-time-pad and encode your message into numbers. These scripts were generated using ChatGPT.
 -------------
+**This is an incomplete readme file, it will be completed later.**
 
 **How to use:**
 
