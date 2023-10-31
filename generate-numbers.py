@@ -3,7 +3,7 @@ import string
 
 # Generate a one-time pad with shuffled numbers
 def generate_one_time_pad():
-    characters = list(string.ascii_uppercase + ".,!?@ ")  # Uppercase alphabet and common punctuation marks
+    characters = list(string.ascii_uppercase + "1234567890.,!?@'-+$€£¥=* ")  # Uppercase alphabet and common punctuation marks
     random.shuffle(characters)
     shuffled_numbers = list(range(len(characters)))
     random.shuffle(shuffled_numbers)
@@ -36,7 +36,7 @@ def decode_message(encoded_message, one_time_pad):
 
 # Main program
 if __name__ == "__main__":
-    message = "ABCDEFGHIJKLMNOPQRSTUVWXYZ.,!?@ "
+    message = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890.,!?@'-+$€£¥=* "
     
     # Generate a one-time pad
     one_time_pad = generate_one_time_pad()
