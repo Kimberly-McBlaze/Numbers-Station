@@ -30,59 +30,56 @@ If the "encode-message.py" script generates a group of numbers with less than 5 
 
 For example, if your output is like this:
 
-2, 3, 2, 9, 0.
+2, 9, 3, 9, 0.
+3, 3, 9, 1, 4.
+1, 9, 4, 5, 4.
+0, 2, 9, 2, 9.
+4, 2, 1, 9, 4.
+5, 2, 1, 0, 3.
+3, 9, 1, 9, 2.
+0, 4, 0, 4, 8.
+1, 9, 4, 8, 3.
+4, 3, 5.
 
-6, 1, 3, 0, 6.
 
-1, 3, 2, 8, 2.
+And the number for an empty space is "19," edit your output as follows:
 
-3, 1, 1, 1, 3.
-
-2, 3.
-
-
-And the number for an empty space is "16," edit your output as follows:
-
-2, 3, 2, 9, 0.
-
-6, 1, 3, 0, 6.
-
-1, 3, 2, 8, 2.
-
-3, 1, 1, 1, 3.
-
-2, 3, 1, 6, 1.
-
-6, 1, 6, 1, 6.
+2, 9, 3, 9, 0.
+3, 3, 9, 1, 4.
+1, 9, 4, 5, 4.
+0, 2, 9, 2, 9.
+4, 2, 1, 9, 4.
+5, 2, 1, 0, 3.
+3, 9, 1, 9, 2.
+0, 4, 0, 4, 8.
+1, 9, 4, 8, 3.
+4, 3, 5, 1, 9
 
 
 This ensures your numbers station maintains the correct format.
 
 It's also recommended to duplicate each line if you want to mimic the Lincolnshire Poacher format, like this:
 
-2, 3, 2, 9, 0.
-
-2, 3, 2, 9, 0.
-
-6, 1, 3, 0, 6.
-
-6, 1, 3, 0, 6.
-
-1, 3, 2, 8, 2.
-
-1, 3, 2, 8, 2.
-
-3, 1, 1, 1, 3.
-
-3, 1, 1, 1, 3.
-
-2, 3, 1, 6, 1.
-
-2, 3, 1, 6, 1.
-
-6, 1, 6, 1, 6.
-
-6, 1, 6, 1, 6.
+2, 9, 3, 9, 0.
+2, 9, 3, 9, 0.
+3, 3, 9, 1, 4.
+3, 3, 9, 1, 4.
+1, 9, 4, 5, 4.
+1, 9, 4, 5, 4.
+0, 2, 9, 2, 9.
+0, 2, 9, 2, 9.
+4, 2, 1, 9, 4.
+4, 2, 1, 9, 4.
+5, 2, 1, 0, 3.
+5, 2, 1, 0, 3.
+3, 9, 1, 9, 2.
+3, 9, 1, 9, 2.
+0, 4, 0, 4, 8.
+0, 4, 0, 4, 8.
+1, 9, 4, 8, 3.
+1, 9, 4, 8, 3.
+4, 3, 5, 1, 9
+4, 3, 5, 1, 9
 
 
 **The Lincolnshire Poacher Format:**
