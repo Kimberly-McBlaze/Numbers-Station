@@ -1,4 +1,4 @@
-Ignore the repeating "98765" in the beginning of the recording. If this was a real numbers station, that would have likely been an assigned ID number of the intended recipient or, perhaps, maybe a message ID. Since this is a simulation of the numbers station, that ID can be ignored.
+Ignore the repeating "98765" in the beginning of the recording. If this was a real numbers station, that would have likely been an assigned ID number of the intended recipient or, perhaps, maybe a message ID. Since this is a simulation of the numbers station, that ID can be ignored. Also, each group of 5 numbers in the message is sent twice, so don't let this confuse you.
 
 
 00 - 0
